@@ -19,6 +19,7 @@
     
     NSLog(@"Test11");
     NSLog(@"How are you ?");
+    NSLog(@"Test");
     
     
     return YES;
