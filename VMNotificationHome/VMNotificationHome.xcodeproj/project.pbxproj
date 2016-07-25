@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF04C6971D42CF400074B244 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF04C6961D42CF400074B244 /* main.m */; };
+		FF04C69A1D42CF400074B244 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF04C6991D42CF400074B244 /* AppDelegate.m */; };
+		FF04C69D1D42CF400074B244 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF04C69C1D42CF400074B244 /* ViewController.m */; };
+		FF04C6A01D42CF400074B244 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF04C69E1D42CF400074B244 /* Main.storyboard */; };
+		FF04C6A21D42CF400074B244 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF04C6A11D42CF400074B244 /* Assets.xcassets */; };
+		FF04C6A51D42CF400074B244 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF04C6A31D42CF400074B244 /* LaunchScreen.storyboard */; };
+		FF04C6B01D42CF400074B244 /* VMNotificationHomeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF04C6AF1D42CF400074B244 /* VMNotificationHomeTests.m */; };
+		FF04C6BB1D42CF400074B244 /* VMNotificationHomeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF04C6BA1D42CF400074B244 /* VMNotificationHomeUITests.m */; };
+		FF04C6CD1D42CFB70074B244 /* VMPeople.m in Sources */ = {isa = PBXBuildFile; fileRef = FF04C6CC1D42CFB70074B244 /* VMPeople.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF04C6AC1D42CF400074B244 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF04C68A1D42CF400074B244 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF04C6911D42CF400074B244;
+			remoteInfo = VMNotificationHome;
+		};
+		FF04C6B71D42CF400074B244 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF04C68A1D42CF400074B244 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF04C6911D42CF400074B244;
+			remoteInfo = VMNotificationHome;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FF04C6921D42CF400074B244 /* VMNotificationHome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VMNotificationHome.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF04C6961D42CF400074B244 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FF04C6981D42CF400074B244 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FF04C6991D42CF400074B244 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FF04C69B1D42CF400074B244 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FF04C69C1D42CF400074B244 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FF04C69F1D42CF400074B244 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF04C6A11D42CF400074B244 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF04C6A41D42CF400074B244 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FF04C6A61D42CF400074B244 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF04C6AB1D42CF400074B244 /* VMNotificationHomeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VMNotificationHomeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF04C6AF1D42CF400074B244 /* VMNotificationHomeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VMNotificationHomeTests.m; sourceTree = "<group>"; };
+		FF04C6B11D42CF400074B244 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF04C6B61D42CF400074B244 /* VMNotificationHomeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VMNotificationHomeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF04C6BA1D42CF400074B244 /* VMNotificationHomeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VMNotificationHomeUITests.m; sourceTree = "<group>"; };
+		FF04C6BC1D42CF400074B244 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF04C6CB1D42CFB70074B244 /* VMPeople.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMPeople.h; sourceTree = "<group>"; };
+		FF04C6CC1D42CFB70074B244 /* VMPeople.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMPeople.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF04C68F1D42CF400074B244 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF04C6A81D42CF400074B244 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF04C6B31D42CF400074B244 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF04C6891D42CF400074B244 = {
+			isa = PBXGroup;
+			children = (
+				FF04C6941D42CF400074B244 /* VMNotificationHome */,
+				FF04C6AE1D42CF400074B244 /* VMNotificationHomeTests */,
+				FF04C6B91D42CF400074B244 /* VMNotificationHomeUITests */,
+				FF04C6931D42CF400074B244 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF04C6931D42CF400074B244 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF04C6921D42CF400074B244 /* VMNotificationHome.app */,
+				FF04C6AB1D42CF400074B244 /* VMNotificationHomeTests.xctest */,
+				FF04C6B61D42CF400074B244 /* VMNotificationHomeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF04C6941D42CF400074B244 /* VMNotificationHome */ = {
+			isa = PBXGroup;
+			children = (
+				FF04C6CB1D42CFB70074B244 /* VMPeople.h */,
+				FF04C6CC1D42CFB70074B244 /* VMPeople.m */,
+				FF04C6981D42CF400074B244 /* AppDelegate.h */,
+				FF04C6991D42CF400074B244 /* AppDelegate.m */,
+				FF04C69B1D42CF400074B244 /* ViewController.h */,
+				FF04C69C1D42CF400074B244 /* ViewController.m */,
+				FF04C69E1D42CF400074B244 /* Main.storyboard */,
+				FF04C6A11D42CF400074B244 /* Assets.xcassets */,
+				FF04C6A31D42CF400074B244 /* LaunchScreen.storyboard */,
+				FF04C6A61D42CF400074B244 /* Info.plist */,
+				FF04C6951D42CF400074B244 /* Supporting Files */,
+			);
+			path = VMNotificationHome;
+			sourceTree = "<group>";
+		};
+		FF04C6951D42CF400074B244 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF04C6961D42CF400074B244 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FF04C6AE1D42CF400074B244 /* VMNotificationHomeTests */ = {
+			isa = PBXGroup;
+			children = (
+				FF04C6AF1D42CF400074B244 /* VMNotificationHomeTests.m */,
+				FF04C6B11D42CF400074B244 /* Info.plist */,
+			);
+			path = VMNotificationHomeTests;
+			sourceTree = "<group>";
+		};
+		FF04C6B91D42CF400074B244 /* VMNotificationHomeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FF04C6BA1D42CF400074B244 /* VMNotificationHomeUITests.m */,
+				FF04C6BC1D42CF400074B244 /* Info.plist */,
+			);
+			path = VMNotificationHomeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF04C6911D42CF400074B244 /* VMNotificationHome */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF04C6BF1D42CF400074B244 /* Build configuration list for PBXNativeTarget "VMNotificationHome" */;
+			buildPhases = (
+				FF04C68E1D42CF400074B244 /* Sources */,
+				FF04C68F1D42CF400074B244 /* Frameworks */,
+				FF04C6901D42CF400074B244 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VMNotificationHome;
+			productName = VMNotificationHome;
+			productReference = FF04C6921D42CF400074B244 /* VMNotificationHome.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FF04C6AA1D42CF400074B244 /* VMNotificationHomeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF04C6C21D42CF400074B244 /* Build configuration list for PBXNativeTarget "VMNotificationHomeTests" */;
+			buildPhases = (
+				FF04C6A71D42CF400074B244 /* Sources */,
+				FF04C6A81D42CF400074B244 /* Frameworks */,
+				FF04C6A91D42CF400074B244 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF04C6AD1D42CF400074B244 /* PBXTargetDependency */,
+			);
+			name = VMNotificationHomeTests;
+			productName = VMNotificationHomeTests;
+			productReference = FF04C6AB1D42CF400074B244 /* VMNotificationHomeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FF04C6B51D42CF400074B244 /* VMNotificationHomeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF04C6C51D42CF400074B244 /* Build configuration list for PBXNativeTarget "VMNotificationHomeUITests" */;
+			buildPhases = (
+				FF04C6B21D42CF400074B244 /* Sources */,
+				FF04C6B31D42CF400074B244 /* Frameworks */,
+				FF04C6B41D42CF400074B244 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF04C6B81D42CF400074B244 /* PBXTargetDependency */,
+			);
+			name = VMNotificationHomeUITests;
+			productName = VMNotificationHomeUITests;
+			productReference = FF04C6B61D42CF400074B244 /* VMNotificationHomeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF04C68A1D42CF400074B244 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Виктор Мишустин";
+				TargetAttributes = {
+					FF04C6911D42CF400074B244 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					FF04C6AA1D42CF400074B244 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = FF04C6911D42CF400074B244;
+					};
+					FF04C6B51D42CF400074B244 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = FF04C6911D42CF400074B244;
+					};
+				};
+			};
+			buildConfigurationList = FF04C68D1D42CF400074B244 /* Build configuration list for PBXProject "VMNotificationHome" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF04C6891D42CF400074B244;
+			productRefGroup = FF04C6931D42CF400074B244 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF04C6911D42CF400074B244 /* VMNotificationHome */,
+				FF04C6AA1D42CF400074B244 /* VMNotificationHomeTests */,
+				FF04C6B51D42CF400074B244 /* VMNotificationHomeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF04C6901D42CF400074B244 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF04C6A51D42CF400074B244 /* LaunchScreen.storyboard in Resources */,
+				FF04C6A21D42CF400074B244 /* Assets.xcassets in Resources */,
+				FF04C6A01D42CF400074B244 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF04C6A91D42CF400074B244 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF04C6B41D42CF400074B244 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF04C68E1D42CF400074B244 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF04C69D1D42CF400074B244 /* ViewController.m in Sources */,
+				FF04C6CD1D42CFB70074B244 /* VMPeople.m in Sources */,
+				FF04C69A1D42CF400074B244 /* AppDelegate.m in Sources */,
+				FF04C6971D42CF400074B244 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF04C6A71D42CF400074B244 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF04C6B01D42CF400074B244 /* VMNotificationHomeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF04C6B21D42CF400074B244 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF04C6BB1D42CF400074B244 /* VMNotificationHomeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF04C6AD1D42CF400074B244 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF04C6911D42CF400074B244 /* VMNotificationHome */;
+			targetProxy = FF04C6AC1D42CF400074B244 /* PBXContainerItemProxy */;
+		};
+		FF04C6B81D42CF400074B244 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF04C6911D42CF400074B244 /* VMNotificationHome */;
+			targetProxy = FF04C6B71D42CF400074B244 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FF04C69E1D42CF400074B244 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF04C69F1D42CF400074B244 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FF04C6A31D42CF400074B244 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF04C6A41D42CF400074B244 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF04C6BD1D42CF400074B244 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FF04C6BE1D42CF400074B244 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF04C6C01D42CF400074B244 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VMNotificationHome/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KiviLab.VMNotificationHome;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FF04C6C11D42CF400074B244 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VMNotificationHome/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KiviLab.VMNotificationHome;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FF04C6C31D42CF400074B244 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VMNotificationHomeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KiviLab.VMNotificationHomeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VMNotificationHome.app/VMNotificationHome";
+			};
+			name = Debug;
+		};
+		FF04C6C41D42CF400074B244 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VMNotificationHomeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KiviLab.VMNotificationHomeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VMNotificationHome.app/VMNotificationHome";
+			};
+			name = Release;
+		};
+		FF04C6C61D42CF400074B244 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VMNotificationHomeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KiviLab.VMNotificationHomeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = VMNotificationHome;
+			};
+			name = Debug;
+		};
+		FF04C6C71D42CF400074B244 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VMNotificationHomeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KiviLab.VMNotificationHomeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = VMNotificationHome;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF04C68D1D42CF400074B244 /* Build configuration list for PBXProject "VMNotificationHome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF04C6BD1D42CF400074B244 /* Debug */,
+				FF04C6BE1D42CF400074B244 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF04C6BF1D42CF400074B244 /* Build configuration list for PBXNativeTarget "VMNotificationHome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF04C6C01D42CF400074B244 /* Debug */,
+				FF04C6C11D42CF400074B244 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FF04C6C21D42CF400074B244 /* Build configuration list for PBXNativeTarget "VMNotificationHomeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF04C6C31D42CF400074B244 /* Debug */,
+				FF04C6C41D42CF400074B244 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FF04C6C51D42CF400074B244 /* Build configuration list for PBXNativeTarget "VMNotificationHomeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF04C6C61D42CF400074B244 /* Debug */,
+				FF04C6C71D42CF400074B244 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF04C68A1D42CF400074B244 /* Project object */;
+}
