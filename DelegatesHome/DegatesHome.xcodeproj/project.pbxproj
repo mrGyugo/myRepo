@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF632FBA1D2653CE00E7A1E0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF632FB91D2653CE00E7A1E0 /* main.m */; };
+		FF632FBD1D2653CE00E7A1E0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF632FBC1D2653CE00E7A1E0 /* AppDelegate.m */; };
+		FF632FC01D2653CE00E7A1E0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF632FBF1D2653CE00E7A1E0 /* ViewController.m */; };
+		FF632FC31D2653CE00E7A1E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF632FC11D2653CE00E7A1E0 /* Main.storyboard */; };
+		FF632FC51D2653CE00E7A1E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF632FC41D2653CE00E7A1E0 /* Assets.xcassets */; };
+		FF632FC81D2653CE00E7A1E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF632FC61D2653CE00E7A1E0 /* LaunchScreen.storyboard */; };
+		FF632FD31D2653CE00E7A1E0 /* DegatesHomeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF632FD21D2653CE00E7A1E0 /* DegatesHomeTests.m */; };
+		FF632FDE1D2653CE00E7A1E0 /* DegatesHomeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF632FDD1D2653CE00E7A1E0 /* DegatesHomeUITests.m */; };
+		FF632FED1D2653F300E7A1E0 /* Patient.m in Sources */ = {isa = PBXBuildFile; fileRef = FF632FEC1D2653F300E7A1E0 /* Patient.m */; };
+		FF632FF01D26552C00E7A1E0 /* Doctor.m in Sources */ = {isa = PBXBuildFile; fileRef = FF632FEF1D26552C00E7A1E0 /* Doctor.m */; };
+		FF632FF61D265C7700E7A1E0 /* AnotherDoctor.m in Sources */ = {isa = PBXBuildFile; fileRef = FF632FF51D265C7700E7A1E0 /* AnotherDoctor.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF632FCF1D2653CE00E7A1E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF632FAD1D2653CE00E7A1E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF632FB41D2653CE00E7A1E0;
+			remoteInfo = DegatesHome;
+		};
+		FF632FDA1D2653CE00E7A1E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF632FAD1D2653CE00E7A1E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF632FB41D2653CE00E7A1E0;
+			remoteInfo = DegatesHome;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FF632FB51D2653CE00E7A1E0 /* DegatesHome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DegatesHome.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF632FB91D2653CE00E7A1E0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FF632FBB1D2653CE00E7A1E0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FF632FBC1D2653CE00E7A1E0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FF632FBE1D2653CE00E7A1E0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FF632FBF1D2653CE00E7A1E0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FF632FC21D2653CE00E7A1E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF632FC41D2653CE00E7A1E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF632FC71D2653CE00E7A1E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FF632FC91D2653CE00E7A1E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF632FCE1D2653CE00E7A1E0 /* DegatesHomeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DegatesHomeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF632FD21D2653CE00E7A1E0 /* DegatesHomeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DegatesHomeTests.m; sourceTree = "<group>"; };
+		FF632FD41D2653CE00E7A1E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF632FD91D2653CE00E7A1E0 /* DegatesHomeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DegatesHomeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF632FDD1D2653CE00E7A1E0 /* DegatesHomeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DegatesHomeUITests.m; sourceTree = "<group>"; };
+		FF632FDF1D2653CE00E7A1E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF632FEB1D2653F300E7A1E0 /* Patient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Patient.h; sourceTree = "<group>"; };
+		FF632FEC1D2653F300E7A1E0 /* Patient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Patient.m; sourceTree = "<group>"; };
+		FF632FEE1D26552C00E7A1E0 /* Doctor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Doctor.h; sourceTree = "<group>"; };
+		FF632FEF1D26552C00E7A1E0 /* Doctor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Doctor.m; sourceTree = "<group>"; };
+		FF632FF41D265C7700E7A1E0 /* AnotherDoctor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnotherDoctor.h; sourceTree = "<group>"; };
+		FF632FF51D265C7700E7A1E0 /* AnotherDoctor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnotherDoctor.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF632FB21D2653CE00E7A1E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF632FCB1D2653CE00E7A1E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF632FD61D2653CE00E7A1E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF632FAC1D2653CE00E7A1E0 = {
+			isa = PBXGroup;
+			children = (
+				FF632FB71D2653CE00E7A1E0 /* DegatesHome */,
+				FF632FD11D2653CE00E7A1E0 /* DegatesHomeTests */,
+				FF632FDC1D2653CE00E7A1E0 /* DegatesHomeUITests */,
+				FF632FB61D2653CE00E7A1E0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF632FB61D2653CE00E7A1E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF632FB51D2653CE00E7A1E0 /* DegatesHome.app */,
+				FF632FCE1D2653CE00E7A1E0 /* DegatesHomeTests.xctest */,
+				FF632FD91D2653CE00E7A1E0 /* DegatesHomeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF632FB71D2653CE00E7A1E0 /* DegatesHome */ = {
+			isa = PBXGroup;
+			children = (
+				FF632FF41D265C7700E7A1E0 /* AnotherDoctor.h */,
+				FF632FF51D265C7700E7A1E0 /* AnotherDoctor.m */,
+				FF632FEE1D26552C00E7A1E0 /* Doctor.h */,
+				FF632FEF1D26552C00E7A1E0 /* Doctor.m */,
+				FF632FEB1D2653F300E7A1E0 /* Patient.h */,
+				FF632FEC1D2653F300E7A1E0 /* Patient.m */,
+				FF632FBB1D2653CE00E7A1E0 /* AppDelegate.h */,
+				FF632FBC1D2653CE00E7A1E0 /* AppDelegate.m */,
+				FF632FBE1D2653CE00E7A1E0 /* ViewController.h */,
+				FF632FBF1D2653CE00E7A1E0 /* ViewController.m */,
+				FF632FC11D2653CE00E7A1E0 /* Main.storyboard */,
+				FF632FC41D2653CE00E7A1E0 /* Assets.xcassets */,
+				FF632FC61D2653CE00E7A1E0 /* LaunchScreen.storyboard */,
+				FF632FC91D2653CE00E7A1E0 /* Info.plist */,
+				FF632FB81D2653CE00E7A1E0 /* Supporting Files */,
+			);
+			path = DegatesHome;
+			sourceTree = "<group>";
+		};
+		FF632FB81D2653CE00E7A1E0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF632FB91D2653CE00E7A1E0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FF632FD11D2653CE00E7A1E0 /* DegatesHomeTests */ = {
+			isa = PBXGroup;
+			children = (
+				FF632FD21D2653CE00E7A1E0 /* DegatesHomeTests.m */,
+				FF632FD41D2653CE00E7A1E0 /* Info.plist */,
+			);
+			path = DegatesHomeTests;
+			sourceTree = "<group>";
+		};
+		FF632FDC1D2653CE00E7A1E0 /* DegatesHomeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FF632FDD1D2653CE00E7A1E0 /* DegatesHomeUITests.m */,
+				FF632FDF1D2653CE00E7A1E0 /* Info.plist */,
+			);
+			path = DegatesHomeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF632FB41D2653CE00E7A1E0 /* DegatesHome */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF632FE21D2653CE00E7A1E0 /* Build configuration list for PBXNativeTarget "DegatesHome" */;
+			buildPhases = (
+				FF632FB11D2653CE00E7A1E0 /* Sources */,
+				FF632FB21D2653CE00E7A1E0 /* Frameworks */,
+				FF632FB31D2653CE00E7A1E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DegatesHome;
+			productName = DegatesHome;
+			productReference = FF632FB51D2653CE00E7A1E0 /* DegatesHome.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FF632FCD1D2653CE00E7A1E0 /* DegatesHomeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF632FE51D2653CE00E7A1E0 /* Build configuration list for PBXNativeTarget "DegatesHomeTests" */;
+			buildPhases = (
+				FF632FCA1D2653CE00E7A1E0 /* Sources */,
+				FF632FCB1D2653CE00E7A1E0 /* Frameworks */,
+				FF632FCC1D2653CE00E7A1E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF632FD01D2653CE00E7A1E0 /* PBXTargetDependency */,
+			);
+			name = DegatesHomeTests;
+			productName = DegatesHomeTests;
+			productReference = FF632FCE1D2653CE00E7A1E0 /* DegatesHomeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FF632FD81D2653CE00E7A1E0 /* DegatesHomeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF632FE81D2653CE00E7A1E0 /* Build configuration list for PBXNativeTarget "DegatesHomeUITests" */;
+			buildPhases = (
+				FF632FD51D2653CE00E7A1E0 /* Sources */,
+				FF632FD61D2653CE00E7A1E0 /* Frameworks */,
+				FF632FD71D2653CE00E7A1E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF632FDB1D2653CE00E7A1E0 /* PBXTargetDependency */,
+			);
+			name = DegatesHomeUITests;
+			productName = DegatesHomeUITests;
+			productReference = FF632FD91D2653CE00E7A1E0 /* DegatesHomeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF632FAD1D2653CE00E7A1E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Виктор Мишустин";
+				TargetAttributes = {
+					FF632FB41D2653CE00E7A1E0 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					FF632FCD1D2653CE00E7A1E0 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = FF632FB41D2653CE00E7A1E0;
+					};
+					FF632FD81D2653CE00E7A1E0 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = FF632FB41D2653CE00E7A1E0;
+					};
+				};
+			};
+			buildConfigurationList = FF632FB01D2653CE00E7A1E0 /* Build configuration list for PBXProject "DegatesHome" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF632FAC1D2653CE00E7A1E0;
+			productRefGroup = FF632FB61D2653CE00E7A1E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF632FB41D2653CE00E7A1E0 /* DegatesHome */,
+				FF632FCD1D2653CE00E7A1E0 /* DegatesHomeTests */,
+				FF632FD81D2653CE00E7A1E0 /* DegatesHomeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF632FB31D2653CE00E7A1E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF632FC81D2653CE00E7A1E0 /* LaunchScreen.storyboard in Resources */,
+				FF632FC51D2653CE00E7A1E0 /* Assets.xcassets in Resources */,
+				FF632FC31D2653CE00E7A1E0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF632FCC1D2653CE00E7A1E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF632FD71D2653CE00E7A1E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF632FB11D2653CE00E7A1E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF632FF61D265C7700E7A1E0 /* AnotherDoctor.m in Sources */,
+				FF632FC01D2653CE00E7A1E0 /* ViewController.m in Sources */,
+				FF632FED1D2653F300E7A1E0 /* Patient.m in Sources */,
+				FF632FBD1D2653CE00E7A1E0 /* AppDelegate.m in Sources */,
+				FF632FBA1D2653CE00E7A1E0 /* main.m in Sources */,
+				FF632FF01D26552C00E7A1E0 /* Doctor.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF632FCA1D2653CE00E7A1E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF632FD31D2653CE00E7A1E0 /* DegatesHomeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF632FD51D2653CE00E7A1E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF632FDE1D2653CE00E7A1E0 /* DegatesHomeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF632FD01D2653CE00E7A1E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF632FB41D2653CE00E7A1E0 /* DegatesHome */;
+			targetProxy = FF632FCF1D2653CE00E7A1E0 /* PBXContainerItemProxy */;
+		};
+		FF632FDB1D2653CE00E7A1E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF632FB41D2653CE00E7A1E0 /* DegatesHome */;
+			targetProxy = FF632FDA1D2653CE00E7A1E0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FF632FC11D2653CE00E7A1E0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF632FC21D2653CE00E7A1E0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FF632FC61D2653CE00E7A1E0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF632FC71D2653CE00E7A1E0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF632FE01D2653CE00E7A1E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FF632FE11D2653CE00E7A1E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF632FE31D2653CE00E7A1E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DegatesHome/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = VM.DegatesHome;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FF632FE41D2653CE00E7A1E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DegatesHome/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = VM.DegatesHome;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FF632FE61D2653CE00E7A1E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DegatesHomeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = VM.DegatesHomeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DegatesHome.app/DegatesHome";
+			};
+			name = Debug;
+		};
+		FF632FE71D2653CE00E7A1E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DegatesHomeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = VM.DegatesHomeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DegatesHome.app/DegatesHome";
+			};
+			name = Release;
+		};
+		FF632FE91D2653CE00E7A1E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DegatesHomeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = VM.DegatesHomeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DegatesHome;
+			};
+			name = Debug;
+		};
+		FF632FEA1D2653CE00E7A1E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DegatesHomeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = VM.DegatesHomeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DegatesHome;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF632FB01D2653CE00E7A1E0 /* Build configuration list for PBXProject "DegatesHome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF632FE01D2653CE00E7A1E0 /* Debug */,
+				FF632FE11D2653CE00E7A1E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF632FE21D2653CE00E7A1E0 /* Build configuration list for PBXNativeTarget "DegatesHome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF632FE31D2653CE00E7A1E0 /* Debug */,
+				FF632FE41D2653CE00E7A1E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FF632FE51D2653CE00E7A1E0 /* Build configuration list for PBXNativeTarget "DegatesHomeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF632FE61D2653CE00E7A1E0 /* Debug */,
+				FF632FE71D2653CE00E7A1E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FF632FE81D2653CE00E7A1E0 /* Build configuration list for PBXNativeTarget "DegatesHomeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF632FE91D2653CE00E7A1E0 /* Debug */,
+				FF632FEA1D2653CE00E7A1E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF632FAD1D2653CE00E7A1E0 /* Project object */;
+}
