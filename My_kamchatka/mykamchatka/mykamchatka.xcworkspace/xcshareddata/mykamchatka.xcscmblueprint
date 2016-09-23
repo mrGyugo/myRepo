@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "3893DC3832C6E1997C4FC2728B7DD58FC0252902",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "CB7B35A956572ACCE38A31CC293B8DFE2EE43AD1" : 0,
+    "3893DC3832C6E1997C4FC2728B7DD58FC0252902" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "B51D2346-A77F-48A0-8800-8BC5FFB15B0F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "CB7B35A956572ACCE38A31CC293B8DFE2EE43AD1" : "",
+    "3893DC3832C6E1997C4FC2728B7DD58FC0252902" : "KiviGroup\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "mykamchatka",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "My_kamchatka\/mykamchatka\/mykamchatka.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Datastore24\/KiviGroup.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3893DC3832C6E1997C4FC2728B7DD58FC0252902"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Datastore24\/Sadovod.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "CB7B35A956572ACCE38A31CC293B8DFE2EE43AD1"
+    }
+  ]
+}

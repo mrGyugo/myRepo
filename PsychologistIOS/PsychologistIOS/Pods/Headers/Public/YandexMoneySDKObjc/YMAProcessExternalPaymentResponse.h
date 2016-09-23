@@ -1,0 +1,1 @@
+../../../YandexMoneySDKObjc/Classes/Response/PaymentProcess/ExternalPayment/YMAProcessExternalPaymentResponse.h

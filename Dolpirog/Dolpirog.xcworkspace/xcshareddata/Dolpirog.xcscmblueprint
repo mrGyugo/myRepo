@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "3893DC3832C6E1997C4FC2728B7DD58FC0252902",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "CB7B35A956572ACCE38A31CC293B8DFE2EE43AD1" : 0,
+    "3893DC3832C6E1997C4FC2728B7DD58FC0252902" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "0120824B-D98C-4EA8-92C9-791CD4F49E9D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "CB7B35A956572ACCE38A31CC293B8DFE2EE43AD1" : "",
+    "3893DC3832C6E1997C4FC2728B7DD58FC0252902" : "KiviGroup\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Dolpirog",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Dolpirog\/Dolpirog.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Datastore24\/KiviGroup.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3893DC3832C6E1997C4FC2728B7DD58FC0252902"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Datastore24\/Sadovod.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "CB7B35A956572ACCE38A31CC293B8DFE2EE43AD1"
+    }
+  ]
+}

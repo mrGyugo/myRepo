@@ -1,0 +1,1 @@
+../../../YandexMoneySDKObjc/Classes/Request/PaymentProcess/YMAIncomingTransferRejectRequest.h
