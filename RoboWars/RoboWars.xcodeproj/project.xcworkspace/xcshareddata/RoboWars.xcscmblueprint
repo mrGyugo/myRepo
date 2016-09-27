@@ -5,24 +5,17 @@
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
     "CB7B35A956572ACCE38A31CC293B8DFE2EE43AD1" : 0,
-    "70E5AC63769921FD69ADDF077559E4CE40340AA1" : 0,
-    "3893DC3832C6E1997C4FC2728B7DD58FC0252902" : 0
+    "70E5AC63769921FD69ADDF077559E4CE40340AA1" : 0
   },
-  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "E8DE8E91-715D-4D74-8957-6665674F8050",
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "CE9C2639-0F62-4058-AC31-F767EA398E79",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
     "CB7B35A956572ACCE38A31CC293B8DFE2EE43AD1" : "",
-    "70E5AC63769921FD69ADDF077559E4CE40340AA1" : "myRepo\/",
-    "3893DC3832C6E1997C4FC2728B7DD58FC0252902" : "KiviGroup\/"
+    "70E5AC63769921FD69ADDF077559E4CE40340AA1" : "myRepo\/"
   },
-  "DVTSourceControlWorkspaceBlueprintNameKey" : "PsychologistIOS",
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "RoboWars",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
-  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "PsychologistIOS\/PsychologistIOS\/PsychologistIOS.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "RoboWars\/RoboWars.xcodeproj",
   "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
-    {
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Datastore24\/KiviGroup.git",
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3893DC3832C6E1997C4FC2728B7DD58FC0252902"
-    },
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/mrGyugo\/myRepo.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",

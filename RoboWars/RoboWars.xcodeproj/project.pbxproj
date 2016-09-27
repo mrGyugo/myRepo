@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF0732CA1D995D7000F7BAC0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0732C91D995D7000F7BAC0 /* main.m */; };
+		FF0732CD1D995D7000F7BAC0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0732CC1D995D7000F7BAC0 /* AppDelegate.m */; };
+		FF0732D01D995D7000F7BAC0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0732CF1D995D7000F7BAC0 /* ViewController.m */; };
+		FF0732D31D995D7000F7BAC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF0732D11D995D7000F7BAC0 /* Main.storyboard */; };
+		FF0732D51D995D7000F7BAC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF0732D41D995D7000F7BAC0 /* Assets.xcassets */; };
+		FF0732D81D995D7000F7BAC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF0732D61D995D7000F7BAC0 /* LaunchScreen.storyboard */; };
+		FF0732E31D995D7000F7BAC0 /* RoboWarsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0732E21D995D7000F7BAC0 /* RoboWarsTests.m */; };
+		FF0732EE1D995D7000F7BAC0 /* RoboWarsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0732ED1D995D7000F7BAC0 /* RoboWarsUITests.m */; };
+		FF0732FD1D995D8C00F7BAC0 /* Target.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0732FC1D995D8C00F7BAC0 /* Target.m */; };
+		FF0733001D99614A00F7BAC0 /* VMSmart.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0732FF1D99614A00F7BAC0 /* VMSmart.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF0732DF1D995D7000F7BAC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF0732BD1D995D7000F7BAC0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF0732C41D995D7000F7BAC0;
+			remoteInfo = RoboWars;
+		};
+		FF0732EA1D995D7000F7BAC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF0732BD1D995D7000F7BAC0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF0732C41D995D7000F7BAC0;
+			remoteInfo = RoboWars;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FF0732C51D995D7000F7BAC0 /* RoboWars.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoboWars.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF0732C91D995D7000F7BAC0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FF0732CB1D995D7000F7BAC0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FF0732CC1D995D7000F7BAC0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FF0732CE1D995D7000F7BAC0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FF0732CF1D995D7000F7BAC0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FF0732D21D995D7000F7BAC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF0732D41D995D7000F7BAC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF0732D71D995D7000F7BAC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FF0732D91D995D7000F7BAC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF0732DE1D995D7000F7BAC0 /* RoboWarsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoboWarsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF0732E21D995D7000F7BAC0 /* RoboWarsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RoboWarsTests.m; sourceTree = "<group>"; };
+		FF0732E41D995D7000F7BAC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF0732E91D995D7000F7BAC0 /* RoboWarsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoboWarsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF0732ED1D995D7000F7BAC0 /* RoboWarsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RoboWarsUITests.m; sourceTree = "<group>"; };
+		FF0732EF1D995D7000F7BAC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF0732FB1D995D8C00F7BAC0 /* Target.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Target.h; sourceTree = "<group>"; };
+		FF0732FC1D995D8C00F7BAC0 /* Target.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Target.m; sourceTree = "<group>"; };
+		FF0732FE1D99614A00F7BAC0 /* VMSmart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMSmart.h; sourceTree = "<group>"; };
+		FF0732FF1D99614A00F7BAC0 /* VMSmart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMSmart.m; sourceTree = "<group>"; };
+		FF0733011D99645600F7BAC0 /* VSpilotProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VSpilotProtocol.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF0732C21D995D7000F7BAC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF0732DB1D995D7000F7BAC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF0732E61D995D7000F7BAC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF0732BC1D995D7000F7BAC0 = {
+			isa = PBXGroup;
+			children = (
+				FF0732C71D995D7000F7BAC0 /* RoboWars */,
+				FF0732E11D995D7000F7BAC0 /* RoboWarsTests */,
+				FF0732EC1D995D7000F7BAC0 /* RoboWarsUITests */,
+				FF0732C61D995D7000F7BAC0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF0732C61D995D7000F7BAC0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF0732C51D995D7000F7BAC0 /* RoboWars.app */,
+				FF0732DE1D995D7000F7BAC0 /* RoboWarsTests.xctest */,
+				FF0732E91D995D7000F7BAC0 /* RoboWarsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF0732C71D995D7000F7BAC0 /* RoboWars */ = {
+			isa = PBXGroup;
+			children = (
+				FF0732CB1D995D7000F7BAC0 /* AppDelegate.h */,
+				FF0732CC1D995D7000F7BAC0 /* AppDelegate.m */,
+				FF0732CE1D995D7000F7BAC0 /* ViewController.h */,
+				FF0732CF1D995D7000F7BAC0 /* ViewController.m */,
+				FF0732D11D995D7000F7BAC0 /* Main.storyboard */,
+				FF0732D41D995D7000F7BAC0 /* Assets.xcassets */,
+				FF0732D61D995D7000F7BAC0 /* LaunchScreen.storyboard */,
+				FF0732D91D995D7000F7BAC0 /* Info.plist */,
+				FF0732C81D995D7000F7BAC0 /* Supporting Files */,
+				FF0732FB1D995D8C00F7BAC0 /* Target.h */,
+				FF0732FC1D995D8C00F7BAC0 /* Target.m */,
+				FF0732FE1D99614A00F7BAC0 /* VMSmart.h */,
+				FF0732FF1D99614A00F7BAC0 /* VMSmart.m */,
+				FF0733011D99645600F7BAC0 /* VSpilotProtocol.h */,
+			);
+			path = RoboWars;
+			sourceTree = "<group>";
+		};
+		FF0732C81D995D7000F7BAC0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF0732C91D995D7000F7BAC0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FF0732E11D995D7000F7BAC0 /* RoboWarsTests */ = {
+			isa = PBXGroup;
+			children = (
+				FF0732E21D995D7000F7BAC0 /* RoboWarsTests.m */,
+				FF0732E41D995D7000F7BAC0 /* Info.plist */,
+			);
+			path = RoboWarsTests;
+			sourceTree = "<group>";
+		};
+		FF0732EC1D995D7000F7BAC0 /* RoboWarsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FF0732ED1D995D7000F7BAC0 /* RoboWarsUITests.m */,
+				FF0732EF1D995D7000F7BAC0 /* Info.plist */,
+			);
+			path = RoboWarsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF0732C41D995D7000F7BAC0 /* RoboWars */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF0732F21D995D7000F7BAC0 /* Build configuration list for PBXNativeTarget "RoboWars" */;
+			buildPhases = (
+				FF0732C11D995D7000F7BAC0 /* Sources */,
+				FF0732C21D995D7000F7BAC0 /* Frameworks */,
+				FF0732C31D995D7000F7BAC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RoboWars;
+			productName = RoboWars;
+			productReference = FF0732C51D995D7000F7BAC0 /* RoboWars.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FF0732DD1D995D7000F7BAC0 /* RoboWarsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF0732F51D995D7000F7BAC0 /* Build configuration list for PBXNativeTarget "RoboWarsTests" */;
+			buildPhases = (
+				FF0732DA1D995D7000F7BAC0 /* Sources */,
+				FF0732DB1D995D7000F7BAC0 /* Frameworks */,
+				FF0732DC1D995D7000F7BAC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF0732E01D995D7000F7BAC0 /* PBXTargetDependency */,
+			);
+			name = RoboWarsTests;
+			productName = RoboWarsTests;
+			productReference = FF0732DE1D995D7000F7BAC0 /* RoboWarsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FF0732E81D995D7000F7BAC0 /* RoboWarsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF0732F81D995D7000F7BAC0 /* Build configuration list for PBXNativeTarget "RoboWarsUITests" */;
+			buildPhases = (
+				FF0732E51D995D7000F7BAC0 /* Sources */,
+				FF0732E61D995D7000F7BAC0 /* Frameworks */,
+				FF0732E71D995D7000F7BAC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF0732EB1D995D7000F7BAC0 /* PBXTargetDependency */,
+			);
+			name = RoboWarsUITests;
+			productName = RoboWarsUITests;
+			productReference = FF0732E91D995D7000F7BAC0 /* RoboWarsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF0732BD1D995D7000F7BAC0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Виктор Мишустин";
+				TargetAttributes = {
+					FF0732C41D995D7000F7BAC0 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					FF0732DD1D995D7000F7BAC0 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = FF0732C41D995D7000F7BAC0;
+					};
+					FF0732E81D995D7000F7BAC0 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = FF0732C41D995D7000F7BAC0;
+					};
+				};
+			};
+			buildConfigurationList = FF0732C01D995D7000F7BAC0 /* Build configuration list for PBXProject "RoboWars" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF0732BC1D995D7000F7BAC0;
+			productRefGroup = FF0732C61D995D7000F7BAC0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF0732C41D995D7000F7BAC0 /* RoboWars */,
+				FF0732DD1D995D7000F7BAC0 /* RoboWarsTests */,
+				FF0732E81D995D7000F7BAC0 /* RoboWarsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF0732C31D995D7000F7BAC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF0732D81D995D7000F7BAC0 /* LaunchScreen.storyboard in Resources */,
+				FF0732D51D995D7000F7BAC0 /* Assets.xcassets in Resources */,
+				FF0732D31D995D7000F7BAC0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF0732DC1D995D7000F7BAC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF0732E71D995D7000F7BAC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF0732C11D995D7000F7BAC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF0732D01D995D7000F7BAC0 /* ViewController.m in Sources */,
+				FF0732CD1D995D7000F7BAC0 /* AppDelegate.m in Sources */,
+				FF0732FD1D995D8C00F7BAC0 /* Target.m in Sources */,
+				FF0733001D99614A00F7BAC0 /* VMSmart.m in Sources */,
+				FF0732CA1D995D7000F7BAC0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF0732DA1D995D7000F7BAC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF0732E31D995D7000F7BAC0 /* RoboWarsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF0732E51D995D7000F7BAC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF0732EE1D995D7000F7BAC0 /* RoboWarsUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF0732E01D995D7000F7BAC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF0732C41D995D7000F7BAC0 /* RoboWars */;
+			targetProxy = FF0732DF1D995D7000F7BAC0 /* PBXContainerItemProxy */;
+		};
+		FF0732EB1D995D7000F7BAC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF0732C41D995D7000F7BAC0 /* RoboWars */;
+			targetProxy = FF0732EA1D995D7000F7BAC0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FF0732D11D995D7000F7BAC0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF0732D21D995D7000F7BAC0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FF0732D61D995D7000F7BAC0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF0732D71D995D7000F7BAC0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF0732F01D995D7000F7BAC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FF0732F11D995D7000F7BAC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF0732F31D995D7000F7BAC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RoboWars/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KiviLab.RoboWars;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FF0732F41D995D7000F7BAC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RoboWars/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KiviLab.RoboWars;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FF0732F61D995D7000F7BAC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RoboWarsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KiviLab.RoboWarsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RoboWars.app/RoboWars";
+			};
+			name = Debug;
+		};
+		FF0732F71D995D7000F7BAC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RoboWarsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KiviLab.RoboWarsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RoboWars.app/RoboWars";
+			};
+			name = Release;
+		};
+		FF0732F91D995D7000F7BAC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RoboWarsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KiviLab.RoboWarsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RoboWars;
+			};
+			name = Debug;
+		};
+		FF0732FA1D995D7000F7BAC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RoboWarsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KiviLab.RoboWarsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RoboWars;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF0732C01D995D7000F7BAC0 /* Build configuration list for PBXProject "RoboWars" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF0732F01D995D7000F7BAC0 /* Debug */,
+				FF0732F11D995D7000F7BAC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF0732F21D995D7000F7BAC0 /* Build configuration list for PBXNativeTarget "RoboWars" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF0732F31D995D7000F7BAC0 /* Debug */,
+				FF0732F41D995D7000F7BAC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FF0732F51D995D7000F7BAC0 /* Build configuration list for PBXNativeTarget "RoboWarsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF0732F61D995D7000F7BAC0 /* Debug */,
+				FF0732F71D995D7000F7BAC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FF0732F81D995D7000F7BAC0 /* Build configuration list for PBXNativeTarget "RoboWarsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF0732F91D995D7000F7BAC0 /* Debug */,
+				FF0732FA1D995D7000F7BAC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF0732BD1D995D7000F7BAC0 /* Project object */;
+}
