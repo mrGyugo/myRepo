@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FFE38DAF1D9AAB200065EE38 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE38DAE1D9AAB200065EE38 /* main.m */; };
+		FFE38DB21D9AAB200065EE38 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE38DB11D9AAB200065EE38 /* AppDelegate.m */; };
+		FFE38DB51D9AAB200065EE38 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE38DB41D9AAB200065EE38 /* ViewController.m */; };
+		FFE38DB81D9AAB200065EE38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFE38DB61D9AAB200065EE38 /* Main.storyboard */; };
+		FFE38DBA1D9AAB200065EE38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFE38DB91D9AAB200065EE38 /* Assets.xcassets */; };
+		FFE38DBD1D9AAB200065EE38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFE38DBB1D9AAB200065EE38 /* LaunchScreen.storyboard */; };
+		FFE38DC81D9AAB200065EE38 /* BitwiseOperationsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE38DC71D9AAB200065EE38 /* BitwiseOperationsTests.m */; };
+		FFE38DD31D9AAB200065EE38 /* BitwiseOperationsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE38DD21D9AAB200065EE38 /* BitwiseOperationsUITests.m */; };
+		FFE38DE21D9AAE510065EE38 /* VMStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE38DE11D9AAE510065EE38 /* VMStudent.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FFE38DC41D9AAB200065EE38 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFE38DA21D9AAB200065EE38 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFE38DA91D9AAB200065EE38;
+			remoteInfo = BitwiseOperations;
+		};
+		FFE38DCF1D9AAB200065EE38 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFE38DA21D9AAB200065EE38 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFE38DA91D9AAB200065EE38;
+			remoteInfo = BitwiseOperations;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FFE38DAA1D9AAB200065EE38 /* BitwiseOperations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BitwiseOperations.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFE38DAE1D9AAB200065EE38 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FFE38DB01D9AAB200065EE38 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FFE38DB11D9AAB200065EE38 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FFE38DB31D9AAB200065EE38 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FFE38DB41D9AAB200065EE38 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FFE38DB71D9AAB200065EE38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FFE38DB91D9AAB200065EE38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FFE38DBC1D9AAB200065EE38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FFE38DBE1D9AAB200065EE38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFE38DC31D9AAB200065EE38 /* BitwiseOperationsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BitwiseOperationsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFE38DC71D9AAB200065EE38 /* BitwiseOperationsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BitwiseOperationsTests.m; sourceTree = "<group>"; };
+		FFE38DC91D9AAB200065EE38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFE38DCE1D9AAB200065EE38 /* BitwiseOperationsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BitwiseOperationsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFE38DD21D9AAB200065EE38 /* BitwiseOperationsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BitwiseOperationsUITests.m; sourceTree = "<group>"; };
+		FFE38DD41D9AAB200065EE38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFE38DE01D9AAE510065EE38 /* VMStudent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMStudent.h; sourceTree = "<group>"; };
+		FFE38DE11D9AAE510065EE38 /* VMStudent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMStudent.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FFE38DA71D9AAB200065EE38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFE38DC01D9AAB200065EE38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFE38DCB1D9AAB200065EE38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FFE38DA11D9AAB200065EE38 = {
+			isa = PBXGroup;
+			children = (
+				FFE38DAC1D9AAB200065EE38 /* BitwiseOperations */,
+				FFE38DC61D9AAB200065EE38 /* BitwiseOperationsTests */,
+				FFE38DD11D9AAB200065EE38 /* BitwiseOperationsUITests */,
+				FFE38DAB1D9AAB200065EE38 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FFE38DAB1D9AAB200065EE38 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FFE38DAA1D9AAB200065EE38 /* BitwiseOperations.app */,
+				FFE38DC31D9AAB200065EE38 /* BitwiseOperationsTests.xctest */,
+				FFE38DCE1D9AAB200065EE38 /* BitwiseOperationsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFE38DAC1D9AAB200065EE38 /* BitwiseOperations */ = {
+			isa = PBXGroup;
+			children = (
+				FFE38DE01D9AAE510065EE38 /* VMStudent.h */,
+				FFE38DE11D9AAE510065EE38 /* VMStudent.m */,
+				FFE38DB01D9AAB200065EE38 /* AppDelegate.h */,
+				FFE38DB11D9AAB200065EE38 /* AppDelegate.m */,
+				FFE38DB31D9AAB200065EE38 /* ViewController.h */,
+				FFE38DB41D9AAB200065EE38 /* ViewController.m */,
+				FFE38DB61D9AAB200065EE38 /* Main.storyboard */,
+				FFE38DB91D9AAB200065EE38 /* Assets.xcassets */,
+				FFE38DBB1D9AAB200065EE38 /* LaunchScreen.storyboard */,
+				FFE38DBE1D9AAB200065EE38 /* Info.plist */,
+				FFE38DAD1D9AAB200065EE38 /* Supporting Files */,
+			);
+			path = BitwiseOperations;
+			sourceTree = "<group>";
+		};
+		FFE38DAD1D9AAB200065EE38 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FFE38DAE1D9AAB200065EE38 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FFE38DC61D9AAB200065EE38 /* BitwiseOperationsTests */ = {
+			isa = PBXGroup;
+			children = (
+				FFE38DC71D9AAB200065EE38 /* BitwiseOperationsTests.m */,
+				FFE38DC91D9AAB200065EE38 /* Info.plist */,
+			);
+			path = BitwiseOperationsTests;
+			sourceTree = "<group>";
+		};
+		FFE38DD11D9AAB200065EE38 /* BitwiseOperationsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FFE38DD21D9AAB200065EE38 /* BitwiseOperationsUITests.m */,
+				FFE38DD41D9AAB200065EE38 /* Info.plist */,
+			);
+			path = BitwiseOperationsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FFE38DA91D9AAB200065EE38 /* BitwiseOperations */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFE38DD71D9AAB200065EE38 /* Build configuration list for PBXNativeTarget "BitwiseOperations" */;
+			buildPhases = (
+				FFE38DA61D9AAB200065EE38 /* Sources */,
+				FFE38DA71D9AAB200065EE38 /* Frameworks */,
+				FFE38DA81D9AAB200065EE38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BitwiseOperations;
+			productName = BitwiseOperations;
+			productReference = FFE38DAA1D9AAB200065EE38 /* BitwiseOperations.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FFE38DC21D9AAB200065EE38 /* BitwiseOperationsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFE38DDA1D9AAB200065EE38 /* Build configuration list for PBXNativeTarget "BitwiseOperationsTests" */;
+			buildPhases = (
+				FFE38DBF1D9AAB200065EE38 /* Sources */,
+				FFE38DC01D9AAB200065EE38 /* Frameworks */,
+				FFE38DC11D9AAB200065EE38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFE38DC51D9AAB200065EE38 /* PBXTargetDependency */,
+			);
+			name = BitwiseOperationsTests;
+			productName = BitwiseOperationsTests;
+			productReference = FFE38DC31D9AAB200065EE38 /* BitwiseOperationsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FFE38DCD1D9AAB200065EE38 /* BitwiseOperationsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFE38DDD1D9AAB200065EE38 /* Build configuration list for PBXNativeTarget "BitwiseOperationsUITests" */;
+			buildPhases = (
+				FFE38DCA1D9AAB200065EE38 /* Sources */,
+				FFE38DCB1D9AAB200065EE38 /* Frameworks */,
+				FFE38DCC1D9AAB200065EE38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFE38DD01D9AAB200065EE38 /* PBXTargetDependency */,
+			);
+			name = BitwiseOperationsUITests;
+			productName = BitwiseOperationsUITests;
+			productReference = FFE38DCE1D9AAB200065EE38 /* BitwiseOperationsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FFE38DA21D9AAB200065EE38 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Виктор Мишустин";
+				TargetAttributes = {
+					FFE38DA91D9AAB200065EE38 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					FFE38DC21D9AAB200065EE38 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FFE38DA91D9AAB200065EE38;
+					};
+					FFE38DCD1D9AAB200065EE38 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FFE38DA91D9AAB200065EE38;
+					};
+				};
+			};
+			buildConfigurationList = FFE38DA51D9AAB200065EE38 /* Build configuration list for PBXProject "BitwiseOperations" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FFE38DA11D9AAB200065EE38;
+			productRefGroup = FFE38DAB1D9AAB200065EE38 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FFE38DA91D9AAB200065EE38 /* BitwiseOperations */,
+				FFE38DC21D9AAB200065EE38 /* BitwiseOperationsTests */,
+				FFE38DCD1D9AAB200065EE38 /* BitwiseOperationsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FFE38DA81D9AAB200065EE38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFE38DBD1D9AAB200065EE38 /* LaunchScreen.storyboard in Resources */,
+				FFE38DBA1D9AAB200065EE38 /* Assets.xcassets in Resources */,
+				FFE38DB81D9AAB200065EE38 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFE38DC11D9AAB200065EE38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFE38DCC1D9AAB200065EE38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FFE38DA61D9AAB200065EE38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFE38DE21D9AAE510065EE38 /* VMStudent.m in Sources */,
+				FFE38DB51D9AAB200065EE38 /* ViewController.m in Sources */,
+				FFE38DB21D9AAB200065EE38 /* AppDelegate.m in Sources */,
+				FFE38DAF1D9AAB200065EE38 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFE38DBF1D9AAB200065EE38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFE38DC81D9AAB200065EE38 /* BitwiseOperationsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFE38DCA1D9AAB200065EE38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFE38DD31D9AAB200065EE38 /* BitwiseOperationsUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FFE38DC51D9AAB200065EE38 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFE38DA91D9AAB200065EE38 /* BitwiseOperations */;
+			targetProxy = FFE38DC41D9AAB200065EE38 /* PBXContainerItemProxy */;
+		};
+		FFE38DD01D9AAB200065EE38 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFE38DA91D9AAB200065EE38 /* BitwiseOperations */;
+			targetProxy = FFE38DCF1D9AAB200065EE38 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FFE38DB61D9AAB200065EE38 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFE38DB71D9AAB200065EE38 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FFE38DBB1D9AAB200065EE38 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFE38DBC1D9AAB200065EE38 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FFE38DD51D9AAB200065EE38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FFE38DD61D9AAB200065EE38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FFE38DD81D9AAB200065EE38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BitwiseOperations/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = VM.BitwiseOperations;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FFE38DD91D9AAB200065EE38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BitwiseOperations/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = VM.BitwiseOperations;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FFE38DDB1D9AAB200065EE38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BitwiseOperationsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = VM.BitwiseOperationsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BitwiseOperations.app/BitwiseOperations";
+			};
+			name = Debug;
+		};
+		FFE38DDC1D9AAB200065EE38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BitwiseOperationsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = VM.BitwiseOperationsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BitwiseOperations.app/BitwiseOperations";
+			};
+			name = Release;
+		};
+		FFE38DDE1D9AAB200065EE38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BitwiseOperationsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = VM.BitwiseOperationsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BitwiseOperations;
+			};
+			name = Debug;
+		};
+		FFE38DDF1D9AAB200065EE38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BitwiseOperationsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = VM.BitwiseOperationsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BitwiseOperations;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FFE38DA51D9AAB200065EE38 /* Build configuration list for PBXProject "BitwiseOperations" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFE38DD51D9AAB200065EE38 /* Debug */,
+				FFE38DD61D9AAB200065EE38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFE38DD71D9AAB200065EE38 /* Build configuration list for PBXNativeTarget "BitwiseOperations" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFE38DD81D9AAB200065EE38 /* Debug */,
+				FFE38DD91D9AAB200065EE38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FFE38DDA1D9AAB200065EE38 /* Build configuration list for PBXNativeTarget "BitwiseOperationsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFE38DDB1D9AAB200065EE38 /* Debug */,
+				FFE38DDC1D9AAB200065EE38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FFE38DDD1D9AAB200065EE38 /* Build configuration list for PBXNativeTarget "BitwiseOperationsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFE38DDE1D9AAB200065EE38 /* Debug */,
+				FFE38DDF1D9AAB200065EE38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FFE38DA21D9AAB200065EE38 /* Project object */;
+}

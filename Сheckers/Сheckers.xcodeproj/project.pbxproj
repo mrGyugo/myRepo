@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF3BB5C31DA4F53700763EF7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3BB5C21DA4F53700763EF7 /* main.m */; };
+		FF3BB5C61DA4F53700763EF7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3BB5C51DA4F53700763EF7 /* AppDelegate.m */; };
+		FF3BB5C91DA4F53700763EF7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3BB5C81DA4F53700763EF7 /* ViewController.m */; };
+		FF3BB5CC1DA4F53700763EF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF3BB5CA1DA4F53700763EF7 /* Main.storyboard */; };
+		FF3BB5CE1DA4F53700763EF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF3BB5CD1DA4F53700763EF7 /* Assets.xcassets */; };
+		FF3BB5D11DA4F53700763EF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF3BB5CF1DA4F53700763EF7 /* LaunchScreen.storyboard */; };
+		FF3BB5DC1DA4F53700763EF7 /* _heckersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3BB5DB1DA4F53700763EF7 /* _heckersTests.m */; };
+		FF3BB5E71DA4F53700763EF7 /* _heckersUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3BB5E61DA4F53700763EF7 /* _heckersUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF3BB5D81DA4F53700763EF7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF3BB5B61DA4F53700763EF7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF3BB5BD1DA4F53700763EF7;
+			remoteInfo = "Сheckers";
+		};
+		FF3BB5E31DA4F53700763EF7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF3BB5B61DA4F53700763EF7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF3BB5BD1DA4F53700763EF7;
+			remoteInfo = "Сheckers";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FF3BB5BE1DA4F53700763EF7 /* Сheckers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Сheckers.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF3BB5C21DA4F53700763EF7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FF3BB5C41DA4F53700763EF7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FF3BB5C51DA4F53700763EF7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FF3BB5C71DA4F53700763EF7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FF3BB5C81DA4F53700763EF7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FF3BB5CB1DA4F53700763EF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF3BB5CD1DA4F53700763EF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF3BB5D01DA4F53700763EF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FF3BB5D21DA4F53700763EF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF3BB5D71DA4F53700763EF7 /* СheckersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "СheckersTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF3BB5DB1DA4F53700763EF7 /* _heckersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _heckersTests.m; sourceTree = "<group>"; };
+		FF3BB5DD1DA4F53700763EF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF3BB5E21DA4F53700763EF7 /* СheckersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "СheckersUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF3BB5E61DA4F53700763EF7 /* _heckersUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _heckersUITests.m; sourceTree = "<group>"; };
+		FF3BB5E81DA4F53700763EF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF3BB5BB1DA4F53700763EF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF3BB5D41DA4F53700763EF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF3BB5DF1DA4F53700763EF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF3BB5B51DA4F53700763EF7 = {
+			isa = PBXGroup;
+			children = (
+				FF3BB5C01DA4F53700763EF7 /* Сheckers */,
+				FF3BB5DA1DA4F53700763EF7 /* СheckersTests */,
+				FF3BB5E51DA4F53700763EF7 /* СheckersUITests */,
+				FF3BB5BF1DA4F53700763EF7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF3BB5BF1DA4F53700763EF7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF3BB5BE1DA4F53700763EF7 /* Сheckers.app */,
+				FF3BB5D71DA4F53700763EF7 /* СheckersTests.xctest */,
+				FF3BB5E21DA4F53700763EF7 /* СheckersUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF3BB5C01DA4F53700763EF7 /* Сheckers */ = {
+			isa = PBXGroup;
+			children = (
+				FF3BB5C41DA4F53700763EF7 /* AppDelegate.h */,
+				FF3BB5C51DA4F53700763EF7 /* AppDelegate.m */,
+				FF3BB5C71DA4F53700763EF7 /* ViewController.h */,
+				FF3BB5C81DA4F53700763EF7 /* ViewController.m */,
+				FF3BB5CA1DA4F53700763EF7 /* Main.storyboard */,
+				FF3BB5CD1DA4F53700763EF7 /* Assets.xcassets */,
+				FF3BB5CF1DA4F53700763EF7 /* LaunchScreen.storyboard */,
+				FF3BB5D21DA4F53700763EF7 /* Info.plist */,
+				FF3BB5C11DA4F53700763EF7 /* Supporting Files */,
+			);
+			path = "Сheckers";
+			sourceTree = "<group>";
+		};
+		FF3BB5C11DA4F53700763EF7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF3BB5C21DA4F53700763EF7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FF3BB5DA1DA4F53700763EF7 /* СheckersTests */ = {
+			isa = PBXGroup;
+			children = (
+				FF3BB5DB1DA4F53700763EF7 /* _heckersTests.m */,
+				FF3BB5DD1DA4F53700763EF7 /* Info.plist */,
+			);
+			path = "СheckersTests";
+			sourceTree = "<group>";
+		};
+		FF3BB5E51DA4F53700763EF7 /* СheckersUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FF3BB5E61DA4F53700763EF7 /* _heckersUITests.m */,
+				FF3BB5E81DA4F53700763EF7 /* Info.plist */,
+			);
+			path = "СheckersUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF3BB5BD1DA4F53700763EF7 /* Сheckers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF3BB5EB1DA4F53700763EF7 /* Build configuration list for PBXNativeTarget "Сheckers" */;
+			buildPhases = (
+				FF3BB5BA1DA4F53700763EF7 /* Sources */,
+				FF3BB5BB1DA4F53700763EF7 /* Frameworks */,
+				FF3BB5BC1DA4F53700763EF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Сheckers";
+			productName = "Сheckers";
+			productReference = FF3BB5BE1DA4F53700763EF7 /* Сheckers.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FF3BB5D61DA4F53700763EF7 /* СheckersTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF3BB5EE1DA4F53700763EF7 /* Build configuration list for PBXNativeTarget "СheckersTests" */;
+			buildPhases = (
+				FF3BB5D31DA4F53700763EF7 /* Sources */,
+				FF3BB5D41DA4F53700763EF7 /* Frameworks */,
+				FF3BB5D51DA4F53700763EF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF3BB5D91DA4F53700763EF7 /* PBXTargetDependency */,
+			);
+			name = "СheckersTests";
+			productName = "СheckersTests";
+			productReference = FF3BB5D71DA4F53700763EF7 /* СheckersTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FF3BB5E11DA4F53700763EF7 /* СheckersUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF3BB5F11DA4F53700763EF7 /* Build configuration list for PBXNativeTarget "СheckersUITests" */;
+			buildPhases = (
+				FF3BB5DE1DA4F53700763EF7 /* Sources */,
+				FF3BB5DF1DA4F53700763EF7 /* Frameworks */,
+				FF3BB5E01DA4F53700763EF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF3BB5E41DA4F53700763EF7 /* PBXTargetDependency */,
+			);
+			name = "СheckersUITests";
+			productName = "СheckersUITests";
+			productReference = FF3BB5E21DA4F53700763EF7 /* СheckersUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF3BB5B61DA4F53700763EF7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Виктор Мишустин";
+				TargetAttributes = {
+					FF3BB5BD1DA4F53700763EF7 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					FF3BB5D61DA4F53700763EF7 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FF3BB5BD1DA4F53700763EF7;
+					};
+					FF3BB5E11DA4F53700763EF7 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FF3BB5BD1DA4F53700763EF7;
+					};
+				};
+			};
+			buildConfigurationList = FF3BB5B91DA4F53700763EF7 /* Build configuration list for PBXProject "Сheckers" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF3BB5B51DA4F53700763EF7;
+			productRefGroup = FF3BB5BF1DA4F53700763EF7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF3BB5BD1DA4F53700763EF7 /* Сheckers */,
+				FF3BB5D61DA4F53700763EF7 /* СheckersTests */,
+				FF3BB5E11DA4F53700763EF7 /* СheckersUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF3BB5BC1DA4F53700763EF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF3BB5D11DA4F53700763EF7 /* LaunchScreen.storyboard in Resources */,
+				FF3BB5CE1DA4F53700763EF7 /* Assets.xcassets in Resources */,
+				FF3BB5CC1DA4F53700763EF7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF3BB5D51DA4F53700763EF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF3BB5E01DA4F53700763EF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF3BB5BA1DA4F53700763EF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF3BB5C91DA4F53700763EF7 /* ViewController.m in Sources */,
+				FF3BB5C61DA4F53700763EF7 /* AppDelegate.m in Sources */,
+				FF3BB5C31DA4F53700763EF7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF3BB5D31DA4F53700763EF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF3BB5DC1DA4F53700763EF7 /* _heckersTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF3BB5DE1DA4F53700763EF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF3BB5E71DA4F53700763EF7 /* _heckersUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF3BB5D91DA4F53700763EF7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF3BB5BD1DA4F53700763EF7 /* Сheckers */;
+			targetProxy = FF3BB5D81DA4F53700763EF7 /* PBXContainerItemProxy */;
+		};
+		FF3BB5E41DA4F53700763EF7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF3BB5BD1DA4F53700763EF7 /* Сheckers */;
+			targetProxy = FF3BB5E31DA4F53700763EF7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FF3BB5CA1DA4F53700763EF7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF3BB5CB1DA4F53700763EF7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FF3BB5CF1DA4F53700763EF7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF3BB5D01DA4F53700763EF7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF3BB5E91DA4F53700763EF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		FF3BB5EA1DA4F53700763EF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF3BB5EC1DA4F53700763EF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Сheckers/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "VM.-heckers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FF3BB5ED1DA4F53700763EF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Сheckers/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "VM.-heckers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FF3BB5EF1DA4F53700763EF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "СheckersTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "VM.-heckersTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Сheckers.app/Сheckers";
+			};
+			name = Debug;
+		};
+		FF3BB5F01DA4F53700763EF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "СheckersTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "VM.-heckersTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Сheckers.app/Сheckers";
+			};
+			name = Release;
+		};
+		FF3BB5F21DA4F53700763EF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "СheckersUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "VM.-heckersUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Сheckers";
+			};
+			name = Debug;
+		};
+		FF3BB5F31DA4F53700763EF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "СheckersUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "VM.-heckersUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Сheckers";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF3BB5B91DA4F53700763EF7 /* Build configuration list for PBXProject "Сheckers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF3BB5E91DA4F53700763EF7 /* Debug */,
+				FF3BB5EA1DA4F53700763EF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF3BB5EB1DA4F53700763EF7 /* Build configuration list for PBXNativeTarget "Сheckers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF3BB5EC1DA4F53700763EF7 /* Debug */,
+				FF3BB5ED1DA4F53700763EF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FF3BB5EE1DA4F53700763EF7 /* Build configuration list for PBXNativeTarget "СheckersTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF3BB5EF1DA4F53700763EF7 /* Debug */,
+				FF3BB5F01DA4F53700763EF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FF3BB5F11DA4F53700763EF7 /* Build configuration list for PBXNativeTarget "СheckersUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF3BB5F21DA4F53700763EF7 /* Debug */,
+				FF3BB5F31DA4F53700763EF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF3BB5B61DA4F53700763EF7 /* Project object */;
+}
