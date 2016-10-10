@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "70E5AC63769921FD69ADDF077559E4CE40340AA1",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "CB7B35A956572ACCE38A31CC293B8DFE2EE43AD1" : 9223372036854775807,
+    "70E5AC63769921FD69ADDF077559E4CE40340AA1" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "28314C56-18D9-4583-BC74-C72890503B76",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "CB7B35A956572ACCE38A31CC293B8DFE2EE43AD1" : "",
+    "70E5AC63769921FD69ADDF077559E4CE40340AA1" : "myRepo\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "GesturesWork",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "GesturesWork\/GesturesWork.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/mrGyugo\/myRepo.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "70E5AC63769921FD69ADDF077559E4CE40340AA1"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Datastore24\/Sadovod.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "CB7B35A956572ACCE38A31CC293B8DFE2EE43AD1"
+    }
+  ]
+}

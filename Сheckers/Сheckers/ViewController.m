@@ -26,6 +26,14 @@
 @property (assign, nonatomic) CGPoint touchOffcet; //Отступ для правильно анимации тача
 @property (assign, nonatomic) CGPoint corrction; //Конечная точка перемещения объекта
 
+@property (assign, nonatomic) CGPoint startPoint; //Стартовое положение фишки
+@property (assign, nonatomic) BOOL activeBox; //Попали в активный бокс или нет
+@property (assign, nonatomic) CGPoint startPoints;
+
+@property (strong, nonatomic) NSMutableArray * arrayAllCkeckers; //Массив всех шашек;
+
+
+
 @end
 
 @implementation ViewController
@@ -37,6 +45,7 @@
     self.arrayActiveBoxes = [NSMutableArray array];
     self.arrayMyCheckers = [NSMutableArray array];
     self.arrayEnemyCheckers = [NSMutableArray array];
+    self.arrayAllCkeckers = [NSMutableArray array];
     
     //Отображение визуальных объектов-----------------------------------
     //Отображение доски
@@ -55,6 +64,7 @@
         }
     }
     
+    //Отображение шашек
     for (UIView * view in self.arrayActiveBoxes) {
         if (CGRectGetMinY(view.frame) / CGRectGetWidth(view.frame) > 4) { //Отображение наших шашек
             UIView * viewChecker = [self createCheckerViewWithMainView:self.viewBoard andForWhom:YES];
@@ -66,6 +76,10 @@
             [self.arrayEnemyCheckers addObject:viewChecker];
         }
     }
+    
+    //Создание общего массива шашек
+    [self.arrayAllCkeckers addObjectsFromArray:self.arrayMyCheckers];
+    [self.arrayAllCkeckers addObjectsFromArray:self.arrayEnemyCheckers];
 
 }
 
@@ -130,6 +144,8 @@
     if ([self checkObject:view inArray:self.arrayMyCheckers] || [self checkObject:view inArray:self.arrayEnemyCheckers]) {
         self.dragginView = view;
         
+        self.startPoints = view.center;
+        
         [self.viewBoard bringSubviewToFront:self.dragginView];
         
         CGPoint touchPoint = [touch locationInView:self.dragginView];
@@ -157,19 +173,14 @@
         CGPoint pointOnMainView = [touch locationInView:self.view];
         self.corrction = CGPointMake(pointOnMainView.x + self.touchOffcet.x,
                                         pointOnMainView.y + self.touchOffcet.y);
-        
-        
-        
         self.dragginView.center = self.corrction;
     }
     
 }
 - (void)touchesEnded:(NSSet<UITouch *> *)touches withEvent:(nullable UIEvent *)event {
-    
     [self cancelAnimation];
 }
 - (void)touchesCancelled:(NSSet<UITouch *> *)touches withEvent:(nullable UIEvent *)event {
-    
     [self cancelAnimation];
 }
 
@@ -177,10 +188,17 @@
 
 - (void) cancelAnimation {
     [UIView animateWithDuration:0.3 animations:^{
-        self.dragginView.center = [self checkCentreActiveBoxWithTouchPoint:self.corrction];
+        for (UIView * view in self.arrayAllCkeckers) {
+            view.userInteractionEnabled = NO;
+        }
+        CGPoint testPoint = [self checkCentreActiveBoxWithTouchPoint:self.corrction];
+        self.dragginView.center = [self checkChekersWithPointTouchWithCGPoint:testPoint];
         self.dragginView.transform = CGAffineTransformMakeScale(1.f, 1.f);
         self.dragginView.alpha = 1.f;
-        
+    } completion:^(BOOL finished) {
+        for (UIView * view in self.arrayAllCkeckers) {
+            view.userInteractionEnabled = YES;
+        }
     }];
 }
 
@@ -196,39 +214,78 @@
     return NO;
 }
 
+#pragma mark - Move Methods
+
 - (CGPoint) checkCentreActiveBoxWithTouchPoint: (CGPoint) touchPoint {
-    
     for (UIView * view in self.arrayActiveBoxes) {
         if (CGRectContainsPoint(view.frame, touchPoint)) {
+            self.startPoint = view.center;
+            self.activeBox = YES;
             return view.center;
         }
     }
-    return touchPoint;
-    
+    return [self checkCenterNonActiveBoxWithTouchPoint:touchPoint];
 }
 
-//- (CGPoint) checkCenterNonActiveBoxWithTouchPoint: (CGPoint) touchPoint {
-//    
-//
-//    CGFloat test;
-//    CGPoint pointCentre = CGPointMake(0, 0);
-//    
-//    for (UIView * view in self.arrayActiveBoxes) {
-//        
-//        pointCentre = view.center;
-//        CGFloat testFor;
-//        
-//        if (touchPoint.x > pointCentre.x) {
-//            testFor = touchPoint.x - pointCentre.x;
-//        } else {
-//            testFor = pointCentre.x - touchPoint.x;
-//        }
-//
-//        
-//    }
-//    
-//    
-//}
+- (CGPoint) checkCenterNonActiveBoxWithTouchPoint: (CGPoint) touchPoint {
+    CGPoint mainPoin = CGPointZero;
+    CGFloat mainCentr = NSNotFound;
+    
+    for (UIView * view in self.arrayActiveBoxes) {
+        CGFloat testfloat = [self distanceBetweenRect:view.frame andPoint:touchPoint];
+        if (testfloat < mainCentr) {
+            mainCentr = testfloat;
+            mainPoin = view.center;
+        }
+    }
+    self.startPoint = mainPoin;
+    self.activeBox = NO;
+    return mainPoin;
+}
+
+- (CGFloat)distanceBetweenRect:(CGRect)rect andPoint:(CGPoint)point
+{
+    // first of all, we check if point is inside rect. If it is, distance is zero
+    if (CGRectContainsPoint(rect, point)) return 0.f;
+    
+    // next we see which point in rect is closest to point
+    CGPoint closest = rect.origin;
+    if (rect.origin.x + rect.size.width < point.x)
+        closest.x += rect.size.width; // point is far right of us
+    else if (point.x > rect.origin.x)
+        closest.x = point.x; // point above or below us
+    if (rect.origin.y + rect.size.height < point.y)
+        closest.y += rect.size.height; // point is far below us
+    else if (point.y > rect.origin.y)
+        closest.y = point.y; // point is straight left or right
+    
+    // we've got a closest point; now pythagorean theorem
+    // distance^2 = [closest.x,y - closest.x,point.y]^2 + [closest.x,point.y - point.x,y]^2
+    // i.e. [closest.y-point.y]^2 + [closest.x-point.x]^2
+    CGFloat a = powf(closest.y-point.y, 2.f);
+    CGFloat b = powf(closest.x-point.x, 2.f);
+    return sqrtf(a + b);
+}
+
+- (CGPoint) checkChekersWithPointTouchWithCGPoint: (CGPoint) tuochPoint {
+    NSInteger counter;
+    if (self.activeBox) {
+        counter = 0;
+    } else {
+        counter = 1;
+    }
+    
+    for (UIView * view in self.arrayAllCkeckers) {
+        if (CGRectContainsPoint(view.frame, self.startPoint)) {
+            counter += 1;
+        }
+    }
+    if (counter > 1) {
+        return self.startPoints;
+    } else {
+        return tuochPoint;
+    }
+};
 
 
 @end
